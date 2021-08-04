@@ -6,6 +6,8 @@ public class Empregado{
     private double bonus;
     private int tipo;
 
+
+
     public void setTipo (int tipo){
         this.tipo = tipo;
     }
@@ -13,6 +15,30 @@ public class Empregado{
     public int getTipo (){
         return this.tipo;
     }
+    
+public void setSalario (double salaraio){
+    this.salaraio = salaraio;
+}
+
+public void setComissao (double comissao){
+    this.comissao = comissao;
+}
+
+public void setBonus (double bonus){
+    this.bonus = bonus;
+}
+
+public void getSalario (){
+    return this.salaraio;
+}
+
+public void getComissao (){
+    return this.comissao;
+}
+
+public void getBonus (){
+    return this.bonus;
+}
 
     public double cauculaSalario(){
         if (tipo == 1){
