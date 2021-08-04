@@ -12,8 +12,8 @@ public class testeEmpregado {
         e2.setComissao(0.2);
         e3.setBonus(400);
 
-        system.out.println(e1.cauculaSalario());
-        system.out.println(e2.cauculaSalario());
-        system.out.println(e3.cauculaSalario());
+        System.out.println(e1.cauculaSalario());
+        System.out.println(e2.cauculaSalario());
+        System.out.println(e3.cauculaSalario());
     }
 }
