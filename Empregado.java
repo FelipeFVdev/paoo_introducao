@@ -40,7 +40,7 @@ public void getBonus (){
     return this.bonus;
 }
 
-    public double cauculaSalario(){
+    public double calculaSalario(){
         if (tipo == 1){
             return salaraio;
         }
