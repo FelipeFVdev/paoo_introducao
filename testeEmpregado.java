@@ -15,5 +15,10 @@ public class testeEmpregado {
         System.out.println(e1.calculaSalario());
         System.out.println(e2.calculaSalario());
         System.out.println(e3.calculaSalario());
+
+        List <Empregado> emps = Arrays.asList(e1, e2, e3);
+
+        for (Empregado e: emps)
+            System.out.println (e.calculaSalario());
     }
 }
